@@ -1,0 +1,45 @@
+.style{
+  
+   
+   
+}
+.icon{
+    margin-bottom: 10px;
+    background-color: aqua;
+    width: 200px;
+    border-radius: 10px 10px 10px 10px;
+    padding-right:10px;
+    text-align: right;
+    padding: 5px;
+    transform: translate(-180px);
+    transition: 1s;
+    
+    
+}
+.icon span{
+    background-color: rgb(220, 12, 144);
+    height:30px;
+    width:30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    border-radius:10px 10px 10px 10px;
+    transition: .5s;
+    
+}
+
+.icon span:hover{
+    transform: rotate(360deg);
+}
+
+
+
+.icon:hover{
+    transform: translate(-80px);
+}
+
+.icon label{
+    color: rgb(19, 21, 22);
+    font-size: 20px;
+}
+
